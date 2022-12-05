@@ -9,6 +9,8 @@
     "d1p2": "node dist/day1/part2.js",
     "d2p1": "node dist/day2/part1.js",
     "d2p2": "node dist/day2/part2.js",
+    "d3p1": "node dist/day3/part1.js",
+    "d3p2": "node dist/day3/part2.js",
     "copyfiles": "copyfiles --error --up 1 src/**/*.txt dist"
   },
   "author": "",
