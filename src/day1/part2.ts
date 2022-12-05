@@ -25,4 +25,4 @@ const exec = (fileName: string) => {
   return elfCals[0] + elfCals[1] + elfCals[2]
 };
 
-console.log(exec("day1/input.txt"));
+console.log(exec("dist/day1/input.txt"));

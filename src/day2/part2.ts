@@ -113,4 +113,4 @@ const exec = (fileName: string) => {
   console.log(score)
 };
 
-exec("day2/input.txt");
+exec("dist/day2/input.txt");

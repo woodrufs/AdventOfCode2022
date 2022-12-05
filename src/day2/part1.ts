@@ -42,8 +42,6 @@ const exec = (fileName: string) => {
   const games = readFileSync(fileName).toString().split("\n");
   games.forEach(game => {
     const [p1, p2] = game.split(' ') as [OpponentHand, MyHand];
-    console.log(p1);
-    console.log(p2);
     const gameResult = getResult(p1, p2);
     const handScore = getPlayScore(p2);
     const gameScore = getGameScore(gameResult);
@@ -53,4 +51,4 @@ const exec = (fileName: string) => {
   console.log(score)
 };
 
-exec("day2/input.txt");
+exec("dist/day2/input.txt");

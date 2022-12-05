@@ -18,4 +18,4 @@ const exec = (fileName: string) => {
   console.log(mostCals)
 };
 
-exec("day1/input.txt");
+exec("dist/day1/input.txt");
