@@ -1,0 +1,25 @@
+{
+  "name": "adventofcode2022",
+  "version": "1.0.0",
+  "description": "Advent of Code 2022",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc && npm run copyfiles",
+    "d1p1": "node dist/day1/part1.js",
+    "d1p2": "node dist/day1/part2.js",
+    "d2p1": "node dist/day2/part1.js",
+    "d2p2": "node dist/day2/part2.js",
+    "copyfiles": "copyfiles --error **/*.txt dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "copyfiles": "^2.4.1",
+    "lodash": "^4.17.21",
+    "readline-promise": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.10",
+    "typescript": "^4.9.3"
+  }
+}
