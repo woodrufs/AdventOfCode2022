@@ -17,6 +17,8 @@
     "d5p2": "node dist/day5/part2.js",
     "d6p1": "node dist/day6/part1.js",
     "d6p2": "node dist/day6/part2.js",
+    "d8p1": "node dist/day8/part1.js",
+    "d8p2": "node dist/day8/part2.js",
     "copyfiles": "copyfiles --error --up 1 src/**/*.txt dist"
   },
   "author": "",
